@@ -1,0 +1,54 @@
+.main_section {
+    background-color: black;
+    height: 600px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: whitesmoke;
+    list-style: none;
+
+}
+
+.menu ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:fantasy;
+    padding: 7px 13px;
+
+
+}
+
+.menu p {
+    margin: 150px;
+
+}
+
+.main_section p{
+    color: whitesmoke;
+    padding: 150px 0;
+    margin-left: 50px;
+    margin-right: 0;
+}
+
+.hire_btn{
+    background-color: rgba(228, 46, 46, 0.871);
+color: whitesmoke;
+text-decoration: none;
+border-radius: 9px;
+border: 22px;
+padding: 13px;
+margin-left: 50px;
+margin-top: 0px;
+font-family: inherit;
+display: inline-block;
+width: 119px;
+text-align: center;
+}
