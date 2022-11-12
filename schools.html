@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html>
-<style>
-    table, th, td {
-        border:1px solid black;
-        text-align: center;        
-}
-
-    th {
-        background-color: burlywood;
-        padding: 0.75rem 2rem;
-        text-transform: uppercase;
-    }
-
-</style>
 <head>
     <meta charset="UTF-8">
     <title>Schools</title>
+    <style>
+        table, th, td {
+            border:1px solid black;
+            text-align: center;}
+    
+        th {
+            background-color: burlywood;
+            padding: 0.75rem 2rem;
+            text-transform: uppercase;
+        }
+    
+        #elemSchool tr > *{
+            background-color: salmon;
+        }
+    
+        #highSchool tr *{
+            background-color:orange;
+        }
+    
+    </style>
 </head>
-<body style="background-color: bisque;">
-    <nav class = "menu">
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
+
+<body>
+
+    <ul>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+    </ul>
     <br/>
     
     <table>
@@ -35,81 +44,80 @@
                 <th>Comments</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <th rowspan="7" style="background-color: salmon;">Ilanot <a href="https://www.google.co.il/maps/place/Herzl+School+%D7%91%D7%99%D7%AA+%D7%A1%D7%A4%D7%A8+%D7%94%D7%A8%D7%A6%D7%9C%E2%80%AD/@32.7989689,34.9785835,17z/data=!3m1!4b1!4m5!3m4!1s0x151dbb0921245713:0xcf335d0f93498194!8m2!3d32.7989266!4d34.9807591?hl=en" target="_blank">🗺️</a></th>
-                <td>א2</td>
-                <td rowspan="2">רחל</td>
-                <td rowspan="2">⭐⭐</td>
-            </tr>
-            <tr>
-                <td>ב2</td>
-            </tr>
 
-            <tr>
-                <td>ג2</td>
-                <td rowspan="2">רותי</td>
-                <td rowspan="2">⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>ד2</td>
-            </tr>
-
-            <tr>
-                <td>ה2</td>
-                <td rowspan="2">אורנה</td>
-                <td rowspan="2">⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>ו2</td>
-            </tr>
-            <tr>
-                <th colspan="2">Total Rating: </th>
-                <td>⭐⭐⭐⭐⭐</td>
-                <td>A lovely childhood</td>
-            </tr>
-
-            <tr>
-                <th rowspan="8" style="background-color: orange;">Alliance (French School) <a href="https://www.google.co.il/maps/search/%D7%90%D7%9C%D7%99%D7%90%D7%A0%D7%A1+%D7%A8%D7%9E%D7%AA+%D7%90%D7%91%D7%99%D7%91%E2%80%AD/@32.1072611,34.7938485,17z/data=!3m1!4b1?hl=en" target="_blank">🗺️</a></th>
-                <td>ז2</td>
-                <td rowspan="3">נורית</td>
-                <td rowspan="3">⭐</td>
-                <td rowspan="6">Magna cum Laude 👩‍🎓</td>
-            </tr>
-            <tr>
-                <td>ח2</td>
-            </tr>
-            <tr>
-                <td>ט2</td>
-            </tr>
-
-            <tr>
-                <td>י2</td>
-                <td rowspan="3">שטורמן</td>
-                <td rowspan="3">⭐</td>
-            </tr>
-            <tr>
-               <td>יא2</td>
-            </tr>
-            <tr>
-                <td>יב2</td>
-            </tr>
-            <tr>
-                <th colspan="2">Total Rating: </th>
-                <td>⭐⭐</td>
-            </tr>
-            <tr>
-                <th colspan="2">Total Rating of All My Educational Experience:</th>
-                <td>⭐⭐⭐</td>
-                <td>Unfortunately schools kill creativity, sometimes..</td>
-            </tr>
-
-
+        <tbody id="elemSchool">
             
+                <tr>
+                    <th rowspan="7">Ilanot <a href="https://www.google.co.il/maps/place/Herzl+School+%D7%91%D7%99%D7%AA+%D7%A1%D7%A4%D7%A8+%D7%94%D7%A8%D7%A6%D7%9C%E2%80%AD/@32.7989689,34.9785835,17z/data=!3m1!4b1!4m5!3m4!1s0x151dbb0921245713:0xcf335d0f93498194!8m2!3d32.7989266!4d34.9807591?hl=en" target="_blank">🗺️</a></th>
+                    <td>א2</td>
+                    <td rowspan="2">רחל</td>
+                    <td rowspan="2">⭐⭐</td>
+                    <td rowspan="6"></td>
+                </tr>
+                <tr>
+                    <td>ב2</td>
+                </tr>
+                <tr>
+                    <td>ג2</td>
+                    <td rowspan="2">רותי</td>
+                    <td rowspan="2">⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>ד2</td>
+                </tr>
+
+                <tr>
+                    <td>ה2</td>
+                    <td rowspan="2">אורנה</td>
+                    <td rowspan="2">⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>ו2</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Total Rating: </th>
+                    <td>⭐⭐⭐⭐⭐</td>
+                    <td>A lovely childhood</td>
+                </tr>
         </tbody>
 
+        <tbody id="highSchool">
+                <tr>
+                    <th rowspan="8">Alliance (French School) <a href="https://www.google.co.il/maps/search/%D7%90%D7%9C%D7%99%D7%90%D7%A0%D7%A1+%D7%A8%D7%9E%D7%AA+%D7%90%D7%91%D7%99%D7%91%E2%80%AD/@32.1072611,34.7938485,17z/data=!3m1!4b1?hl=en" target="_blank">🗺️</a></th>
+                    <td>ז2</td>
+                    <td rowspan="3">נורית</td>
+                    <td rowspan="3">⭐</td>
+                    <td rowspan="6">Magna cum Laude 👩‍🎓</td>
+                </tr>
+                <tr>
+                    <td>ח2</td>
+                </tr>
+                <tr>
+                    <td>ט2</td>
+                </tr>
 
+                <tr>
+                    <td>י2</td>
+                    <td rowspan="3">שטורמן</td>
+                    <td rowspan="3">⭐</td>
+                </tr>
+                <tr>
+                <td>יא2</td>
+                </tr>
+                <tr>
+                    <td>יב2</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Total Rating: </th>
+                    <td>⭐⭐</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Total Rating of All My Educational Experience:</th>
+                    <td>⭐⭐⭐</td>
+                    <td>Unfortunately schools kill creativity, sometimes..</td>
+                </tr>   
+        </tbody>
     </table>
-    
 </body>
 </html>
